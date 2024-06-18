@@ -322,7 +322,7 @@ function fetchWeatherData(city, latitude, longitude) {
     .then((response) => {
       // Check if the response is successful (status code 200)
       if (!response.ok) {
-        throw new Error("Network response was not ok");
+        throw new Error("Network response was not ok!!!");
       }
       // Parse the JSON response
       return response.json();
